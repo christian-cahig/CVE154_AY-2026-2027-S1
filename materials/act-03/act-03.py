@@ -17,8 +17,9 @@ if __name__ == "__main__":
     print(f"{' '*3}init. guess: {x0_bs}")
     print(f"{' '*3}max. iters.: {K_bs}")
     print(f"{' '*3}z({x_bs}) = {z_bs(x_bs)} in {x_bs_info.iterations} iters.")
+    print(f"{' '*3}fric. fact.: {}")
 
-    # Part 2-1
+    # Part 2-2
     
     print("Part 2-2. Newton-Raphson")
     print(f"{' '*3}rel. rough.: {0.0456789123}")
@@ -26,6 +27,7 @@ if __name__ == "__main__":
     print(f"{' '*3}init. guess: {x0_nr}")
     print(f"{' '*3}max. iters.: {}")
     print(f"{' '*3}z({x_nr}) = {} in {} iters.")
+    print(f"{' '*3}fric. fact.: {}")
 
     # Part 2-3
         
@@ -35,6 +37,7 @@ if __name__ == "__main__":
     print(f"{' '*3}init. guess: {x0_sc}")
     print(f"{' '*3}max. iters.: {}")
     print(f"{' '*3}z({x_sc}) = {} in {} iters.")
+    print(f"{' '*3}fric. fact.: {}")
 
     # Part 2-4
         
@@ -44,3 +47,4 @@ if __name__ == "__main__":
     print(f"{' '*3}init. guess: {}")
     print(f"{' '*3}max. iters.: {}")
     print(f"{' '*3}z({x_to}) = {} in {} iters.")
+    print(f"{' '*3}fric. fact.: {}")
