@@ -14,7 +14,7 @@ import scipy.optimize as spo
 __AUTHOR__ = "Group 17"
 
 def x_to_f(x):
-    return 1 / mt.sqrt(x)
+    return 1 / (x**2)
 
 def fun(x, ed = 0.01, Re = 5e3):
     # `x` is the inverse-square-root of the friction factor.
