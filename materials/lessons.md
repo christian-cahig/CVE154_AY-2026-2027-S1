@@ -1,6 +1,6 @@
 # Lessons
 
-*Last updated 02 September 2026*
+*Last updated 30 September 2026*
 
 ## Module 1. Univariate root-finding
 
@@ -28,6 +28,10 @@
      - NME8i, Section 7.4
    - Bairstow's
      - NME8i, Section 7.5
+   - Laguerre's
+     - NMPy3, Section 4.7
+   - Jenkins-Traub
+     - NMPy3, Section 4.7
 
 ### Readings
 
@@ -38,11 +42,26 @@
 3. Incremental search and initial guesses
    - NME8i, Section 5.4
    - NMPy3, Section 4.2
-4. Brent's method
-   - NME8i, Section 6.4
-5. Multiplicity of roots
+4. Multiplicity of roots
    - NME8i, Section 6.5
-6. Applications
+5. Polynomial evaluation and differentiation
+   - NME8i, Section 7.2
+   - NMPy3, Section 4.7
+6. Polynomial deflation
+   - NME8i, Section 7.2
+   - NMPy3, Section 4.7
+
+### Software tools
+
+1. [`scipy.optimize.bisect`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.bisect.html)
+2. [`scipy.optimize.newton`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.newton.html)
+3. [`scipy.optimize.toms748`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.toms748.html)
+4. [`scipy.optimize.elementwise.bracket_root`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.elementwise.bracket_root.html)
+5. [`numpy.polynomial.polynomial.Polynomial`](https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.Polynomial.html)
+6. [`numpy.polynomial.polynomial.polyval`](https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.polyval.html)
+7. [`numpy.polynomial.polynomial.polyder`](https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.polyder.html)
+8. [`numpy.polynomial.polynomial.polydiv`](https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.polydiv.html)
+9. [`numpy.polynomial.polynomial.polyroots`](https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.polyroots.html)
 
 ## Module 2. Curve-fitting and interpolation
 
