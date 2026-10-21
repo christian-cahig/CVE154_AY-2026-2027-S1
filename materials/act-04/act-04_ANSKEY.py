@@ -77,7 +77,7 @@ if __name__ == "__main__":
     case = 4
     wl, wr, L = CASES[str(int(case))]
 
-    print(f"wL = {wl} N/m; wR = {wr} N/m; L = {L} m")
+    print(f"Case {case}: wL = {wl} N/m; wR = {wr} N/m; L = {L} m")
     print(
         f"{' '*3}Ay: {Ay(wl, wr, L):.7f}",
         f"By: {By(wl, wr, L):.7f}",
@@ -116,7 +116,7 @@ if __name__ == "__main__":
         x_maxdef, x_maxdef_info = spo.newton(g, x0, fprime=dg, tol=eps, maxiter=Kmax, full_output=True, disp=False)
         if x_maxdef_info.converged and (0 <= x_maxdef) and (x_maxdef <= L):
             print(
-                f"{' '*6}{mu(x_maxdef, wl, wr, L)[0]:.7f} "
+                f"{' '*6}{y(x_maxdef, wl, wr, L)[0]:.7f} "
                 f"@ x = {x_maxdef:.7f}",
                 sep="\t"
             )
