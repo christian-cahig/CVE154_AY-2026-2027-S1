@@ -8,4 +8,4 @@ The template script is
 [`act-04.py`](./act-04.py).
 See
 [`act-04_ANSKEY.py`](./act-04_ANSKEY.py)
-for the model content of submission scripts.
+for the model submission script and answer key.
