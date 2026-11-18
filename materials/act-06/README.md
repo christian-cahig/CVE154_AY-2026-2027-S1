@@ -6,6 +6,6 @@ See the scenario, tasks, marking scheme, and instructions in the instructional n
 [`act-06.ipynb`](./act-06.ipynb).
 The template script is
 [`act-06.py`](./act-06.py).
-<!-- See
+See
 [`act-06_ANSKEY.py`](./act-06_ANSKEY.py)
-for the model submission script and answer key. -->
+for the model submission script and answer key.
