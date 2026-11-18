@@ -143,8 +143,8 @@ def build_Ab(D = 1, Fh = [], Fv = [], Mc = []):
     # than those produced by the above strategy.
     #   1. Alternate equations for horizontal forces with those for vertical forces,
     #   then consider only m of those equations.
-    A = np.reshape(np.concat((Ah, Av), axis=1), (2*NUM_JOINTS, NUM_MEMBERS))[:NUM_MEMBERS, :]
-    b = np.concat((bh[:, None], bv[:, None]), axis=1).ravel()[:NUM_MEMBERS]
+    # A = np.reshape(np.concat((Ah, Av), axis=1), (2*NUM_JOINTS, NUM_MEMBERS))[:NUM_MEMBERS, :]
+    # b = np.concat((bh[:, None], bv[:, None]), axis=1).ravel()[:NUM_MEMBERS]
     #   2. If there are M horizontal reaction forces,
     #   remove M from the balance equations for horizontal forces.
     #   Similarly, if there are N vertical reactions,
